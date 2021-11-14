@@ -1,5 +1,17 @@
 # Compilation of CloudCompare 2.11+
 
+## TL;DR (Ubuntu):
+```console
+sudo apt-get install libqt5svg5-dev libqt5opengl5-dev qt5-default qttools5-dev qttools5-dev-tools libqt5websockets5-dev
+sudo apt install cmake
+git clone --recursive https://github.com/cloudcompare/CloudCompare.git
+cd CloudCompare
+mkdir build & cd build
+cmake ..
+cmake --build .
+cmake --install .
+```
+
 ## 1. Base dependencies
 
 CloudCompare requires [CMake](http://www.cmake.org) to be built.
